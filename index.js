@@ -5,6 +5,9 @@ const { connectMongoDB } = require("./connect");
 const { logger } = require("./middlewares")
 
 const userRouter = require("./routes/user")
+const authRouter = require("./routes/auth");
+
+const registerRouter = require("./routes/register");
 
 const app = express();
 
@@ -21,7 +24,8 @@ connectMongoDB("mongodb://127.0.0.1:27017/express")
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json())
 app.use(logger("log.txt"))
-
+app.use("/register", registerRouter)
+app.use("/login",authRouter)
 app.use("/users", userRouter)
 
 const PORT = 3000;

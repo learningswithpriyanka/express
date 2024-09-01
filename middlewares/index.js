@@ -9,6 +9,7 @@ function logger(filename) {
         console.log(err);
       }
     );
+    req.userdata = "priyanka"
     next();
   };
 }
