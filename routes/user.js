@@ -1,12 +1,9 @@
 const express = require("express");
 const router = express();
+const verify = require("../middlewares/verify");
+const { getUsers, createUser, getUserById } = require("../controller/user");
 
-const {getUsers, createUser, getUserById} = require("../controller/user")
-
-router
-  .route("/")
-  .get(getUsers)
-  .post(createUser);
+router.route("/").get(verify, getUsers).post(createUser);
 
 router.get("/:id", getUserById);
 

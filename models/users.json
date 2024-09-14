@@ -1,14 +1,1 @@
-[
-  {
-    "name": "Priyanka",
-    "pwd": "$2b$10$/s.ou56WGTytHfK1QrLLOuM77aqzulepQS6A/bpiJPEvSuuA5woEG"
-  },
-  {
-    "name": "Gaurav",
-    "pwd": "$2b$10$VYVS.A0IyHUno9oywMgtHOBIUmXWkyUg91KqR/Y0St..OfqEvPA9K"
-  },
-  {
-    "name": "Ravi",
-    "pwd": "$2b$10$Q1fHjtb6YK15Y0SVGhgta.jrEmSxFqmGWzO3vVDKeqaG6ZXITdWdi"
-  }
-]
+[{"name":"Priyanka","pwd":"$2b$10$/s.ou56WGTytHfK1QrLLOuM77aqzulepQS6A/bpiJPEvSuuA5woEG","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MjU4MDU1ODksImV4cCI6MTcyNTg5MTk4OX0.11WjYAbOngZ_RXnOQV3r3AdrO75QKCgk6rj5OqNBsas"}]
